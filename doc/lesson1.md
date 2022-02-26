@@ -15,7 +15,7 @@ sequenceDiagram
   participant EHRbase
   Sensor->>Client: 体温測定 HL7 v2/FHIR message
   Client->>EHRbase:: openEHR FLA JSON(REST)
-  EHRBase->>Client:: AQL(REST)
+  EHRbase->>Client:: AQL(REST)
 ```
 シークエンス図
 
